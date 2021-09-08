@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+/*----- HEADER -----*/
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(img/hero.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.home {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: -40%;
+    text-align: center;
+}
+
+.home img {
+    margin-left: 100px;
+}
+
+.home h1 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Gaegu', cursive;
+
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    z-index: 1;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #000;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+/*----- IMG-MASTER -----*/
+.img-master {
+    background: #eee;
+    margin: 0;
+    text-align: center;
+}
+
+.img-sub {
+    display: inline-block;
+}
+
+.img-sub img {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    background: #283149;
+    height: 200px;
+    width: 200px;
+}
+
+/*----- OVERVIEW -----*/
+.overview-video video {
+    display: block;
+    margin: 0;
+    padding: 0;
+    object-fit: fill;
+}
+
+.master-overview {
+    
+}
+
+.sub-overview {
+    display: inline-block;
+    text-align: center;
+    background: #222;
+    margin: 10px;
+    padding: 10px;
+    height: 250px;
+    width: 275px;
+}
+
+.sub-overview img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 0;
+}
+
+.sub-overview p {
+    margin: 0;
+    padding: 5px;
+}
+
+.sub-overview a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*----- LOGOHOME(HOMEWORK) -----*/
+.logohome {
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.logohome img {
+    height: 200px;
+}
+
+.logohome-sub {
+    text-align: center;
+}
+
+.logohome-sub p {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    background: #eee;
+}
+
+.logohome-sub a {
+    color: #666666;
+}
+/*---- FOOTER -----*/
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+footer p {
+    
+}
+/*----- MEDIA QUERIES -----*/
+@media(max-width: 786px) {
+    
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+    
+    nav ul {
+        max-height: 0px;
+        background: #000;
+    }
+
+    nav.black ul {
+        background: #000;
+    }
+
+    .showing {
+        max-height: 34em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+    
+    .img-sub img {
+        width: 100px;
+        height: 100px;
+    }
+}

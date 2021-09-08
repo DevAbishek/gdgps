@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>G.D. Goenka Public School | Siliguri</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    </head>
+    <body>
+        
+        <div class="wrapper">
+            
+            <header>
+                <nav>
+                    
+                    <div class="menu-icon">
+                        <i class="fa fa-bars fa-2x"></i>
+                    </div>
+                    
+                    <div class="logo">
+                        <img src="img/logo.png" alt="G. D. Goenka Public School">
+                    </div>
+                    
+                    <div class="menu">
+                        <ul>    
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="overview.html">Overview</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                
+                <div class="home">
+                    <img src="img/logo.png" height="125">
+                    <h1>"A journey of a thousand miles begins with a single step."- Lao Tzu</h1>
+                </div>
+            </header>
+            
+            <div class="img-master">
+                <div class="img-sub">
+                    <a href="https://www.britishcouncil.in/programmes/schools/connecting-classrooms/about-international-school-award" target="_blank"><img src="img/British%20Council%20Award.jpg"></a>
+                </div>
+                <div class="img-sub">
+                    <a href="http://www.gdgoenkaschool.in/alumni/alumni.html" target="_blank"><img src="img/Alumni.jpg"></a>
+                </div>
+                <div class="img-sub">
+                    <a href="https://www.facebook.com/gdgoenka/" target="_blank"><img src="img/fb.png"></a>
+                </div>
+                <div class="img-sub">
+                    <a href="docs/newsletter2017.pdf" target="_blank"><img src="img/newsletter.png"></a>
+                </div>
+                <div class="img-sub">
+                    <a href="https://scholarships.gov.in/" target="_blank"><img src="img/nsp.gif"></a>
+                </div>
+                <div class="img-sub">
+                    <a href="homework.html" target="_blank"><img src="img/homework.jpg"></a>
+                </div>
+                <div class="img-sub">
+                    <a href="docs/Calendar18.pdf" target="_blank"><img src="img/Events.png"></a>
+                </div>
+                <div class="img-sub">
+                    <a href="https://www.onlinesbi.com/prelogin/institutiontypedisplay.htm" target="_blank"><img src="img/online%20pay.jpg"></a>
+                </div>
+                <div class="img-sub">
+                    <a href="http://www.gdgoenkaschool.com/" target="_blank"><img src="img/login"></a>
+                </div>
+                <div class="img-sub">
+                    <a href="https://play.google.com/store/apps/details?id=com.app_vnpl2.layout" target="_blank"><img src="img/googleplay.png"></a>
+                </div>
+                <div class="img-sub">
+                    <a href="https://itunes.apple.com/in/app/gd-goenka-public-school-slg/id1076773474?mt=8" target="_blank"><img src="img/appstorelogoclean.jpg"></a>
+                </div>
+                <div class="img-sub">
+                    <a href="http://www.gmunsiliguri.in/" target="_blank"><img src="img/gmun.jpg"></a>
+                </div>
+            
+            </div>
+        
+            <footer>
+                <p>&copy; 2018 G. D. Goenka Public School, Siliguri. Designed By: Abishek Agarwal</p>
+            </footer>
+            
+        </div>
+            
+        
+        
+        <script type="text/javascript">
+            
+            // Menu-toggle button
+            $(document).ready(function() {
+                $(".menu-icon").on("click", function() {
+                    $("nav ul").toggleClass("showing");
+                });
+            });
+
+            // Scrolling Effect
+            $(window).on("scroll", function() {
+                if($(window).scrollTop()) {
+                    $('nav').addClass('black');
+                }
+                else {
+                    $('nav').removeClass('black');
+                }
+            })
+        </script>
+        
+    </body>
+</html>
